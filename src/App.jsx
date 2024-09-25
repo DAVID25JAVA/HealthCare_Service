@@ -22,8 +22,8 @@ const App = () => {
   };
 
   return (
-    <div className="w-full h-screen bg-gray-100">
-      <div className="w-1/2 bg-blue-100 mx-auto  p-4">
+    <div className="w-full h-screen">
+      <div className="w-1/2 bg-blue-100 mx-auto p-4 my-5">
         <h1 className="text-2xl font-bold mb-4">Healthcare Services</h1>
         <ServiceForm addService={addService} />
         <ServiceList
